@@ -7,7 +7,7 @@ Alpine Linux, crafted to be a workstation, for beginner-level system engineers
 	* Vagrant-wrapped (base box: [generic/alpine310](https://app.vagrantup.com/generic/boxes/alpine310))
 	* [Hyper-V](https://en.wikipedia.org/wiki/Hyper-V) backed
 * Packages added:
-	* `git`, `nano`, `htop`, `iotop`, `shadow`
+	* `git`, `nano`, `htop`, `iotop`, `shadow`, `tmux`
 	* `zsh`
 		* `oh-my-zsh` framework, using [agnoster](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes#agnoster) theme, [powerline fonts](https://github.com/powerline/fonts) installed
 	* `docker` Community Edition

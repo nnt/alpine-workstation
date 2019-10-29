@@ -2,7 +2,7 @@
 # NOTE: run as a non-privileged user, e.g. "vagrant"
 
 sudo apk update
-sudo apk add git nano htop iotop shadow zsh
+sudo apk add git nano htop iotop shadow zsh tmux
 # shadow is for chsh command
 
 # install oh-my-zsh
