@@ -2,7 +2,7 @@
 
 ## What is this?
 
-Alpine Linux, crafted to be a workstation, for beginner-level system engineer
+Alpine Linux, crafted to be a workstation, for beginner-level system engineers
 * Alpine v3.10
 	* Vagrant-wrapped (base box: [generic/alpine310](https://app.vagrantup.com/generic/boxes/alpine310))
 	* [Hyper-V](https://en.wikipedia.org/wiki/Hyper-V) backed
