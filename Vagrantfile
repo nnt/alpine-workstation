@@ -9,12 +9,12 @@ Vagrant.configure("2") do |config|
     h.vmname = File.read("configs/vmname")
   end
   
-  config.vm.provision "shell" do |sh|
-    sh.privileged = false
-    sh.path = "scripts/provision-basics.sh"
-  end
-
-  config.vm.provision "shell" do |sh|
-    sh.path = "scripts/provision-docker.sh"
-  end
+#  config.vm.provision "shell" do |sh|
+#    sh.privileged = false
+#    sh.path = "scripts/provision-basics.sh"
+#  end
+#
+#  config.vm.provision "shell" do |sh|
+#    sh.path = "scripts/provision-docker.sh"
+#  end
 end
